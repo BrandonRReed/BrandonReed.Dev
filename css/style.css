@@ -111,6 +111,10 @@ a:hover {
   color: white;
 }
 
+ul.a {
+  list-style-type: circle;
+  color: white;
+}
 
 
 }
