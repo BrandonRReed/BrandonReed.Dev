@@ -1,0 +1,178 @@
+/*!
+* Copyright 2021 Brandon R. Reed
+* https://github.com/BrandonRReed
+*
+*
+* Color Theme:  4DE3B1 (icons), #61892F, #86C232, #222629, #474B4F, #6B6E70
+*/
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/* 02) BASE
+/*---------------------------------------------------*/
+
+
+
+html{
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+/*---------------------------------------------------*/
+/* 02) HEADER
+/*---------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/* 02) MOBILE MENU
+/*---------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+/* 02) HAMBURGER
+/*---------------------------------------------------*/
+
+
+trigger{
+	position: absolute;
+	right: 0px;
+	top: 11px;
+	display: none;
+}
+
+trigger .hamburger{
+    padding: 15px 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+
+
+/*---------------------------------------------------*/
+/* 02) CONTENT
+/*---------------------------------------------------*/
+
+
+header{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+
+universal_box_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  			box-sizing: border-box; /* Opera/IE 8+ */
+  }
+
+
+  universal_box_wrap .bg_wrap{
+  	position: absolute;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	z-index: 10;
+  }
+
+  universal_box_wrap .overlay_image{
+  	position: absolute;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	z-index: 15;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+  }
+
+  universal_box_wrap .overlay_video{
+  	position: absolute;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	z-index: 15;
+  	overflow: hidden;
+  }
+
+  universal_box_wrap .overlay_video video{
+  	width: 100%;
+  	height: 100%;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	object-fit: cover;
+  }
+
+  universal_box_wrap .overlay_color{
+  	position: absolute;
+  	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	z-index: 20;
+  }
+
+universal_box_wrap .overlay_color.video{background-color: rgba(25,38,65,.9);}
+
+universal_box_wrap .overlay_image.hero{background-image: url(..//img/jarallax/chalkboardbkg_b-o.jpg);}
+.universal_box_wrap .content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 25;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
