@@ -1,0 +1,129 @@
+/*!
+* Copyright 2021 Brandon R. Reed
+* https://github.com/BrandonRReed
+*
+*
+* Color Theme:  4DE3B1 (icons), #61892F, #86C232, #222629, #474B4F, #6B6E70
+*/
+
+
+html{
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #86C232;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(5deg, #222629 82%, #474B4F 60%, #222629 2%);
+  background-color: hsl(0, 0%, 20%)
+}
+
+h2 {
+  color: white;
+  margin-left: 0px;
+}
+p{
+  color:white;
+  text-align: left;
+  display:block;
+  width:600px;
+  margin-top: 18px;
+  line-height: 1px;
+  font-size: 18px;
+  /* border:1px solid rgb(171, 171, 196); */
+  padding:10px;
+
+}
+
+
+.social-icons > a > i{
+    width:30px;
+    color: rgb(6, 6, 82);
+    font-size: 30px;
+    margin:10px;
+    transition: transform 0.7s;
+}
+.social-icons > a > i:hover{
+    transform: scale(1.3);
+}
+
+
+
+.Hline1{
+    width:10%;
+    test-align: left;
+    margin:0px ;
+    color: #86C232;
+}
+
+
+/* unvisited link */
+a:link {
+  color: mediumspringgreen;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+ul.a {
+  list-style-type: circle;
+  color: white;
+}
+
+
+}
+
+.desktop > a i:hover{
+    transform: scale(3.1);
+}
+.mobile{
+    display:none;
